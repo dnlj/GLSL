@@ -105,11 +105,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="TodoClassification\TodoGlyph.xaml.cs">
-      <DependentUpon>TodoGlyph.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="TodoClassification\TodoGlyphFactory.cs" />
-    <Compile Include="TodoClassification\TodoTagger.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
@@ -138,12 +133,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\glslVariables.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <Page Include="TodoClassification\TodoGlyph.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
